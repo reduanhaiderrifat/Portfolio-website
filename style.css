@@ -104,8 +104,15 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    
 
 }
 .about-info{
     text-align: center;
+    padding-top: 5px;
+    
+}
+#what{
+    /* padding: 30px 150px; */
+    margin: 30px 130px;
 }
