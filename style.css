@@ -55,7 +55,7 @@ nav,a{
 
 }
 .banner{
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -205,4 +205,94 @@ footer{
     margin-right: 25px;
     font-size: 24px;
     
+}
+@media screen and (max-width:576px) {
+    .header{
+        
+        background-image: none;
+        
+    }
+    nav >ul{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .btn-title{
+        margin-top: 5px;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    nav{
+        padding-right: 120px;
+        flex-direction: column;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+   .about{
+    margin: 0 10px;
+   }
+    #what{
+        margin:0 10px;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+        
+    }
+    .contact input[type="text"],.contact input[type="email"],textarea{
+        width: 60%;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about{
+        padding: 10px;
+    }
+    .banner{
+        padding: 20px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header{
+        background-image: none;
+    }
+    .btn-title{
+        margin-top:5px ;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+        
+    }
+    .contact input[type="text"],.contact input[type="email"],textarea{
+        width: 80%;
+    }
+    #what{
+        padding:20px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about{
+        padding: 10px;
+    }
+    .banner{
+        padding: 20px;
+    }
 }
